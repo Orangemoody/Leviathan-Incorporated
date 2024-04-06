@@ -25,6 +25,7 @@
         transform: translate(-50%, -50%);
         width: 1000px;
         height: 100%;
+        z-index: 1;
       }
 
       .menu-bar {
@@ -33,20 +34,22 @@
         position: absolute;
         top: -1px;
         background-color: #3C535E;
+        z-index: 3;
       }
 
       .left-bar {
-        width: 100px;
+        width: 200px;
         height: 100%;
         position: absolute;
         background-color: #1E2A33;
+        z-index: 2;
       }
     </style>
   </head>
   <body>
     <div class="home">
-      <div class="left-bar"></div>
       <div class="menu-bar"></div>
+      <div class="left-bar"></div>
       <h1>Hi im leviathan</h1>
     </div>
   </body>
