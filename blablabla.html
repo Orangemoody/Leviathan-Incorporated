@@ -85,9 +85,9 @@
       <div class="left-bar">
         <ul style="position: relative; top: 25px;">
           <span style="color: #AADAEF; font-weight: bold; font-size: 25px;">Mainsite</span>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Home</a></li>
+          <li><a href="#" onclick="link1()">Home</a></li>
+          <li><a href="#" onclick="link2()">Home</a></li>
+          <li><a href="#" onclick="link3()">Home</a></li>
           <br>
           <span style="color: #AADAEF; font-weight: bold; font-size: 25px;">Subsite</span>
           <li><a href="/">Home</a></li>
@@ -102,14 +102,20 @@
       </div>
 
       <div class="menu-bar-textplacing">
-        leviathan.quest <span style="color: #607F8D; font-size: 15px;">|</span> <a href="http://localhost">localhost</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://leviathan.nekoweb.org/">leviathan.nekoweb.org</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://beezlebub.vercel.app/beezlebub/">beezlebub.vercel.app</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://spongechair.neocities.org/">spongechair.neocities.org</a>
+        <span style="color: #AADAEF;">leviathan.quest</span> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="http://localhost">localhost</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://leviathan.nekoweb.org/">leviathan.nekoweb.org</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://leviathanisms.neocities.org/">leviathanisms.neocities.org</a> <span style="color: #607F8D; font-size: 15px;">|</span> <a href="https://spongechair.neocities.org/">spongechair.neocities.org</a>
       </div>
       
       <div class="main-css">
         <div class="branding"><i style="position: relative; top: 10px; left: 450px; font-size: 50px; font-weight: 900;">leviathan</i>
         <i style="position: relative; top: 30px; left: 228px; font-weight: 900;">just testing things • she/they</i></div>
-        <iframe src="/pages/home.html" style="border: 0; width: 700px; height: calc(100vh - 126px);">Your browser doesn't support iframes...<br>Please enable them ;-;</iframe>
+        <iframe id="main" src="pages/home.html" style="border: 0; width: 700px; height: calc(100vh - 126px);">Your browser doesn't support iframes...<br>Please enable them ;-;<br><br>If you haven't already, enable javascript too!<br>It'll make the links on the left work.</iframe>
       </div>
     </div>
+	
+	<script>
+    function link1() {  document.getElementById("main").src = "pages/home.html"; }
+	  function link2() {  document.getElementById("main").src = "pages/home.html"; }
+	  function link3() {  document.getElementById("main").src = "pages/home.html"; }
+	</script>
   </body>
 </html>
