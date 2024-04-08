@@ -81,7 +81,13 @@
   </head>
   <body>
     <div class="home">
-      <div class="menu-bar"><img src="images/banner/muriya.png" style="position: relative; top: 26px; left: 200px;"></div>
+      <div class="menu-bar">
+	    <img src="images/banner/muriya.png" style="position: relative; top: 26px; left: 200px;">
+	    <audio controls style="position: relative; top: 20px; right: 105px;  width: 400px; z-index: 16;">
+		  <source src="https://leviathan.s-ul.eu/audio/tq8KoBEr" type="audio/mpeg">
+		</audio>
+		
+	  </div>
       <div class="left-bar">
         <ul style="position: relative; top: 25px;">
           <span style="color: #AADAEF; font-weight: bold; font-size: 25px;">Mainsite</span>
@@ -92,6 +98,7 @@
           <br>
           <span style="color: #AADAEF; font-weight: bold; font-size: 25px;">Subsite</span>
           <li><a href="https://github.com/Houndshark/Leviathan-Incorporated">Source</a></li>
+		  <li><a href="sketch.html">Sketchpage</a></li>
           <br>
           <span style="color: #AADAEF; font-weight: bold; font-size: 25px;">Personal</span>
           <li><a href="https://twitter.com/Iaevateinn">Twitter</a></li>
@@ -116,9 +123,9 @@
     </div>
 	
 	<script>
-          function link1() {  document.getElementById("main").src = "pages/home.html"; }
+      function link1() {  document.getElementById("main").src = "pages/home.html"; }
 	  function link2() {  document.getElementById("main").src = "pages/credits.html"; }
-	  function link3() {  document.getElementById("main").src = "pages/home.html"; }
+	  function link3() {  document.getElementById("main").src = "pages/links.html"; }
 	  function link4() {  document.getElementById("main").src = "pages/home.html"; }
 	</script>
   </body>
