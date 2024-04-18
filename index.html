@@ -76,6 +76,27 @@
       }
 
       a:link {color: #83AABB; text-decoration: none;} a:hover {color: #83AABB; text-decoration: none;} a:visited {color: #83AABB; text-decoration: none;} a:active {color: #AADAEF; text-decoration: underline;}
+	  
+	  .centered {
+	    position: absolute; 
+	    left: calc(50% - 420px); 
+		top: calc(50% + 300px); 
+		transform: translate(-50%, -50%); 
+		z-index: 4; 
+		display: block;
+	  }
+	  
+	  .notetext {
+	    position: absolute; 
+	    left: calc(50% - 480px); 
+		top: calc(50% + 235px); 
+		transform: translate(-50%, -50%);
+		transform: rotate(8deg);
+		z-index: 5; 
+		display: block;
+		font-family: arial;
+		font-size: 12px;
+	  }
     </style>
     <link rel="icon" href="images/icon.png" type="image/png"/>
   </head>
@@ -123,6 +144,14 @@
         <iframe id="main" src="pages/home.html" style="border: 0; width: 700px; height: calc(100vh - 126px);">Your browser doesn't support iframes...<br>Please enable them ;-;<br><br>If you haven't already, enable javascript too!<br>It'll make the links on the left work.</iframe>
       </div>
     </div>
+	
+	<div class="centered">
+	  <img src="note/blue.png" style="height: 200px;">
+	</div>
+	
+	<div class="notetext">
+	  <span>eat sleep whore repeat</span>
+	</div>
 	
 	<script>
       function link1() {  document.getElementById("main").src = "pages/home.html"; }
