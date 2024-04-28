@@ -56,7 +56,9 @@
       }
 
       .branding {
-        background-image: url('images/banner/banner.png');
+        background-image: url('images/MAWTHHH.jpg');
+		background-size: 700px;
+		background-position: 0 40%;
         width: 700px;
         height: 100px;
         color: white;
@@ -68,7 +70,8 @@
       .menu-bar-textplacing {
         position: absolute;
         left: 7px;
-        top: 1px;
+        top: 2px;
+		/* old value was top: 1px; */
         font-weight: bold;
         font-size: 14px;
         z-index: 4;
@@ -80,7 +83,7 @@
 	  .centered {
 	    position: absolute; 
 	    left: calc(50% - 420px); 
-		top: calc(50% + 300px); 
+		top: calc(50% + 210px); 
 		transform: translate(-50%, -50%); 
 		z-index: 4; 
 		display: block;
@@ -88,8 +91,8 @@
 	  
 	  .notetext {
 	    position: absolute; 
-	    left: calc(50% - 480px); 
-		top: calc(50% + 235px); 
+	    left: calc(50% - 470px); 
+		top: calc(50% + 158px); 
 		transform: translate(-50%, -50%);
 		transform: rotate(8deg);
 		z-index: 5; 
@@ -103,11 +106,7 @@
   <body>
     <div class="home">
       <div class="menu-bar">
-	    <img src="images/banner/muriya.png" style="position: relative; top: 26px; left: 200px;">
-	    <audio controls style="position: relative; top: 20px; right: 105px;  width: 400px; z-index: 16;">
-		  <source src="audio.mp3" type="audio/mpeg">
-		</audio>
-		
+	    <!-- img src="images/banner/muriya.png" style="position: relative; top: 26px; left: 200px;" -->
 	  </div>
       <div class="left-bar">
         <ul style="position: relative; top: 25px;">
@@ -139,14 +138,13 @@
       </div>
       
       <div class="main-css">
-        <div class="branding"><i style="position: relative; top: 10px; left: 450px; font-size: 50px; font-weight: 900;">leviathan</i>
-        <i style="position: relative; top: 30px; left: 228px; font-weight: 900;">just testing things • she/they</i></div>
-        <iframe id="main" src="pages/home.html" style="border: 0; width: 700px; height: calc(100vh - 126px);">Your browser doesn't support iframes...<br>Please enable them ;-;<br><br>If you haven't already, enable javascript too!<br>It'll make the links on the left work.</iframe>
+        <div class="branding"></div>
+        <iframe id="main" src="pages/home.html" style="border: 0; width: 700px; height: calc(100vh - 126px); position: relative;">Your browser doesn't support iframes...<br>Please enable them ;-;<br><br>If you haven't already, enable javascript too!<br>It'll make the links on the left work.</iframe>
       </div>
     </div>
 	
 	<div class="centered">
-	  <img src="images/note/blue.png" style="height: 200px;">
+	  <img src="images/note/blue.png" style="height: 170px;">
 	</div>
 	
 	<div class="notetext">

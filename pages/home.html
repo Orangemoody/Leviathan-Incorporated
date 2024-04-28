@@ -8,18 +8,59 @@
         background-color: transparent;
         font-family: Arial;
         color: white;
+		overflow-x: hidden;
+		overflow-y: hidden;
       }
+	  
+	  a:link {color: #83AABB; text-decoration: none;} a:hover {color: #83AABB; text-decoration: none;} a:visited {color: #83AABB; text-decoration: none;} a:active {color: #AADAEF; text-decoration: underline;}
 	  
 	  h1 {
 	    color: #AADAEF;
+	  }
+	  
+	  .frame-image {
+	    background-image: url('../images/photo/image.png');
+		background-position: 10px 30px;
+		background-size: 220px;
+		background-repeat: no-repeat;
+		position: relative;
+		transform: rotate(12deg);
+	  }
+	  
+	  .frame {
+	    background-image: url('../images/photo/frame/back.png');
+		background-size: 250px;
+		background-repeat: no-repeat;
+		position: relative;
+		top: 10px;
+	  }
+	  
+	  .image-indent {
+	    position: relative;
+		width: 375px;
+		left: 290px;
+	  }
+	  
+	  .all-text {
+	    position: relative;
+		top: -306px;
 	  }
     </style>
 
   </head>
   <body>
-    <h1>Hi, i'm Leviathan!!</h1>
-	<p>...and this is my website!</p>
-	<p>Mostly just made because I just wanted a landing page for my domain, taking a lot of inspiration from some past project built for some server management thing that didn't really develop, mixed with some inspiration from another website I made as a main page and then promptly just ignored for the rest of it's existance, I made this. It's not the greatest thing ever, but I'd say I did pretty well with it. It's hosted on netlify (for now) but eventually I'll get a proper server and host everything with that. :3</p>
-	<p>This page mostly just holds all of my interests and projects, most recently being <b>this website</b> on 4/7/2024. I'm not very experienced, I just do this all for myself.</p>
+    <div class="frame-image">
+      <div class="frame">
+  	    <img style="width: 250px;" src="../images/photo/frame/front.png">
+      </div>
+	</div>
+	<div class="all-text">
+      <div class="image-indent">
+	    <h1>Hi, i'm Leviathan!!</h1>
+	    <p>...and this is my website!</p>
+	    <p>Mostly just made because I just wanted a landing page for my domain, taking a lot of inspiration from some past project built for some server management thing that didn't really develop, mixed with some inspiration from another website I made as a main page and then promptly just ignored for the rest of it's existance, I made this. It's not the greatest thing ever, but I'd say I did pretty well with it. It's hosted on netlify (for now) but eventually I'll get a proper server and host everything with that. :3</p>
+	  </div>
+	    <p>This page mostly just holds all of my interests and projects, most recently being <b>this website</b> on 4/7/2024. I'm not very experienced, I just do this all for myself. About actually learning HTML: It was partly just me cruising through my tech class. Believe it or not, I actually learned... something! Later on, I made my first website on October 2021, alongside my <a href="https://neocities.org/site/laevateinn" target="new">Neocities site</a>, formerly named "morrowseer". (don't call me that btw) I made more and more updates and variations of the page, having to remake it in 2022 or so. I then made new pages, including the one that was just a Firefox recreation in-site! I'm done with rambling, so thanks for reading, I guess ;-;</p>
+	</div>
   </body>
 </html>
