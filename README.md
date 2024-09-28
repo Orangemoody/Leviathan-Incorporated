@@ -1,5 +1,7 @@
-# Leviathan-Incorporated
-everything leviathan...
+# Leviathan Incorporated
+My website.
+
+Contains (mostly) everything related to me.
 # Live Preview
 Live previews can be found here:
 - leviathan.cafe
