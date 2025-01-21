@@ -9,7 +9,8 @@
       }
 
       .home {
-        background-color: #273742;
+      /*background-color: #273742;*/
+	    background-color: #151515;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -123,4 +124,19 @@
 		position: relative;
 		top: 25px;
 		text-align: center;
+	  }
+
+      .left-bar-span {
+		color: #AADAEF;
+		font-weight: bold;
+		font-size: 25px;
+	  }
+	  
+	  .top-bar-divider {
+		color: #607F8D;
+		font-size: 15px;
+	  }
+	  
+	  .top-bar-active {
+		color: #AADAEF;
 	  }
