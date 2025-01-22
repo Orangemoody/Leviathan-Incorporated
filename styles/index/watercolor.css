@@ -9,7 +9,7 @@
       }
 
       .home {
-        background-color: white;
+        background-color: #151515;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -34,7 +34,7 @@
         position: absolute;
         background-color: #EEEEEE;
         z-index: 2;
-        color: #83AABB;
+        color: #405088;
       }
 
       .main-css {
@@ -67,7 +67,7 @@
         color: #83AABB;
       }
 
-      a:link {color: #83AABB; text-decoration: none;} a:hover {color: #83AABB; text-decoration: none;} a:visited {color: #83AABB; text-decoration: none;} a:active {color: #AADAEF; text-decoration: underline;}
+      a:link {color: #DDDDDD; text-decoration: none;} a:hover {color: #83AABB; text-decoration: none;} a:visited {color: #DDDDDD; text-decoration: none;} a:active {color: #EEEEEE; text-decoration: underline;}
 	  
 	  .centered {
 	    position: absolute; 
@@ -123,4 +123,23 @@
 		position: relative;
 		top: 25px;
 		text-align: center;
+	  }
+	  
+	  .left-bar-span {
+		color: #405088;
+		font-weight: bold;
+		font-size: 25px;
+	  }
+	  
+	  .top-bar-divider {
+		color: #303C67;
+		font-size: 15px;
+	  }
+	  
+	  .top-bar-active {
+		color: white;
+	  }
+	  
+	  a[style] { /* These are applied through a stupid way: style="true" */
+		  color: #1D2749;
 	  }
